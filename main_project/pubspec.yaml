@@ -1,0 +1,30 @@
+name: main_project
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  mongo_dart: ^0.10.2
+  crypto: ^3.0.1
+  shared_preferences: ^2.0.6
+  http: ^0.13.3
+  url_launcher: ^6.0.3
+  collection: ^1.18.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+
